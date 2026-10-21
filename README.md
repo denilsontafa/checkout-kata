@@ -1,6 +1,6 @@
 # Checkout Kata
 
-![CI](https://github.com/YOUR-USER/checkout-kata/actions/workflows/ci.yml/badge.svg)
+![CI](https://github.com/denilsontafa/checkout-kata/actions/workflows/ci.yml/badge.svg)
 
 A supermarket checkout in Java. Items are identified by SKU (A, B, C, D). Some items
 have multi-buy offers, for example three A's for 130p. Pricing rules are passed in
