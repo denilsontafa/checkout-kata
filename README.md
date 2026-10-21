@@ -85,5 +85,4 @@ The running total can rise by less than an item's price: the second B completes 
 - Load the price list from a file or a pricing service instead of `DefaultPricing`.
 - Add other offer types (percentage discounts, offers across different items) as new rules.
 - Use `BigDecimal` and an explicit rounding mode if percentage discounts are added.
-- Keep a running total and update only the changed item, making each scan O(1) for very large baskets.
 - Add logging and a receipt showing which offers were applied.
